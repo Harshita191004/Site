@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.package {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.package:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    color: #063163;
+}
+
+.price {
+    display: block;
+    font-size: 24px;
+    margin: 10px 0;
+    color: #28A745;
+}
+
+.book-btn {
+    background-color: #28A745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-btn:hover {
+    background-color: #218838;
+}
